@@ -1,0 +1,11 @@
+\ Model VRP_AIMMS_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R22: C1 >= 902
+Bounds
+ -infinity <= C1 <= 10
+Generals
+ C1
+End

@@ -1,0 +1,13 @@
+\ Model _copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ 6th: 100 x_3_7_2_0 + t_3_2_0 - t_7_2_0 <= -68
+ 6th: 100 x_7_3_2_0 - t_3_2_0 + t_7_2_0 <= -68
+Bounds
+ t_3_2_0 free
+ t_7_2_0 free
+Binaries
+ x_3_7_2_0 x_7_3_2_0
+End
